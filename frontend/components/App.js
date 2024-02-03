@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react'
 import axios from 'axios'
 import Card from './Card'
 
+const url = `http://localhost:9009/api/apod?api_key=DEMO_KEY`
 
-const url = `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
 
 
 function App() {
